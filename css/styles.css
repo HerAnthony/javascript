@@ -1,0 +1,10 @@
+body {
+    background-color: #000000;
+}
+main {
+    background-color: #ffffff;
+    color: #000000;
+    margin: auto;
+    widows: 500px;
+    text-align: center;
+}
