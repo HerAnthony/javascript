@@ -31,14 +31,3 @@
 // console.log(topThreeMovies);
 
 // console.log(`my second top movies is: ${topThreeMovies[1]}`);
-
-let firstName = prompt('Please provide first name.');
-let lastName = prompt('Please provide last name.');
-console.log(firstName);
-alert(`Welcome, ${lastName}!`);
-let birthday = prompt('Please provide birthdate.');
-confirm(`You were born on, ${birthday}?`);
-// const birthday = false;
-// let birthday = prompt('Please provide birthdate.');
-// const birthday = true;
-alert(`Thank you for confirming. Your birtdate is ${new Date(birthday)}`);
