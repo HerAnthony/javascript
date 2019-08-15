@@ -42,3 +42,12 @@ confirm(`You were born on, ${birthday}?`);
 // let birthday = prompt('Please provide birthdate.');
 // const birthday = true;
 alert(`Thank you for confirming. Your birtdate is ${new Date(birthday)}`);
+
+// Lesson Style
+// const firstName = prompt('What is your first name?');
+// const lastName = prompt('What is your lat name?');
+
+// console.log(`Your first name is ${firstName}`);
+// alert(`Your last name is ${lastName}`);
+
+// const birthDay = prompt('What is your birtdate?');
