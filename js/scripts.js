@@ -101,8 +101,8 @@ if (userAge >= 18) {
 	console.log('You Shall Not Pass!')
 }
 let overEighteen = prompt('Are you under 80?')
-if (overEighteen >= `${userAge}`); {
-	console.log('Do you like Prunes?');
+if (overEighteen >= 80) {
+	console.log('Do you like Star Wars?');
 } else {
-	console.log('Do you like Star Wars?')
+	console.log('Do you like Prunes?')
 }
