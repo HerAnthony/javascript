@@ -107,4 +107,60 @@ let favoriteMovies = [
 ];
 console.log(favoriteMovies.length);
 
-console.log(favoriteMovies[0][0])
+console.log(favoriteMovies);
+
+
+// let x = 0;
+// while (x < 10) {
+// 	console.log(x);
+// 	x++;
+// }
+// "while loop" running continuously
+
+// for (let i = 0; i > 20; i--) {
+// 	console.log(i);
+// }
+// for (let i = 0; i < 20; i++) {
+// 	console.log(i);
+// }
+// for (let i = 0; i < 10; i++) {
+// 	if (i == 4) {
+// 		contenue;
+// 	}
+// console.log(i)
+// }
+// "for loop"
+
+// let i = 0;
+// do {
+// 	console.log(i);
+// 	i++;
+// } while (i < 10);
+
+// let arr3 = [1, 2, 3, 4, 5];
+// arr3.forEach(function (x) {
+// 	console.log('I am ' + x);
+// })
+
+// let myString = 'Hi, my name is Ant';
+// for (i of myString) {
+// 	console.log(i);
+// }
+
+let people = {
+	firstName: 'Ant',
+	lastName: 'Hernandez',
+	age: 36
+};
+// {
+// 	firstName: 'Jay',
+// 	lastName: 'Garza',
+// 	age: 29
+// }
+for (person in people) {
+	console.log(people[person]);
+}
+// for multiple it is "of" instead of "in"
+// for(person of peopole{)
+// console.log(person.first);
+// }
