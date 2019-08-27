@@ -12,6 +12,26 @@
 	</head>
 
 	<body>
+		<!-- main.container>.row>section.col-md-12>.row>(.col-md-6.col-md-offset-4>ul#groceryList>li#groceryItem)+.col-md-6>input#getGroceryItem+button[type=submit][onclick=""].btn -->
+		<main class="container">
+			<div class="row">
+				<section class="col-md-12">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-4">
+							<h1 id="greeting"></h1>
+							<ul id="groceryList">
+								<li id="groceryItem"></li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<label for="getGroceryItem">Add onto your list</label>
+							<input type="text" id="getGroceryItem"><button type="submit" onclick=""
+								class="btn">Submit</button></div>
+					</div>
+				</section>
+			</div>
+		</main>
+
 
 		<!-- JavaScript -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
