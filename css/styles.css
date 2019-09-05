@@ -1,0 +1,11 @@
+body, .row {
+    background-color: seagreen;
+}
+
+.content {
+    background-color: seashell;
+    padding: .5em;
+    font-family: 'courier new', monospace;
+    min-height: 100vh;
+    /* max-height: 100vh; */
+}
